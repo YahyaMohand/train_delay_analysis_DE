@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+    - name: core
+      database: train-delays-analytics
+      schema: delays_data_all
+
+      tables:
+        - name: stg_delays_data
+        - name: dim_Stanox
+        - name: dim_StationAttributes
+
+#models:
