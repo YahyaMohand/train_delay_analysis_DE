@@ -12,6 +12,19 @@ Data transformations must be performed using software engineering principles (da
 Create an interactive report.
 
 # Solution
+<div id="header" align="center">
+  <img src="https://github.com/YahyaMohand/train_delay_analysis_DE/blob/main/image/structure_data_eng.png" width="1000" height="600"/>
+</div>
+
+# Technology used
+
+Data ingestion pipeline: Prefect Workflow
+
+Data stores: Google Cloud Storage (data lake), Google BigQuery (DWH)
+
+Data transformation: dbt cloud
+
+Reporting: Google Data Visualisation 
 
 
 # Data modeling
